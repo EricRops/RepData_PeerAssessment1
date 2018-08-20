@@ -3,6 +3,7 @@ title: 'Reproducible Research: Assignment 1'
 author: "Eric Rops"
 date: "August 19, 2018"
 output: html_document
+keep_md: true
 ---
 
 ## Introduction
