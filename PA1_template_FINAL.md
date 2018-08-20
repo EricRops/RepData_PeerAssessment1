@@ -50,13 +50,13 @@ summary(activity)
 ```
 
 ```
-##      steps            date              interval     
-##  Min.   :  0.00   Length:17568       Min.   :   0.0  
-##  1st Qu.:  0.00   Class :character   1st Qu.: 588.8  
-##  Median :  0.00   Mode  :character   Median :1177.5  
-##  Mean   : 37.38                      Mean   :1177.5  
-##  3rd Qu.: 12.00                      3rd Qu.:1766.2  
-##  Max.   :806.00                      Max.   :2355.0  
+##      steps          date              interval   
+##  Min.   :  0    Length:17568       Min.   :   0  
+##  1st Qu.:  0    Class :character   1st Qu.: 589  
+##  Median :  0    Mode  :character   Median :1178  
+##  Mean   : 37                       Mean   :1178  
+##  3rd Qu.: 12                       3rd Qu.:1766  
+##  Max.   :806                       Max.   :2355  
 ##  NA's   :2304
 ```
 
@@ -315,6 +315,8 @@ During the week, the test subject seems to start moving around 5:30am (gross), w
 On weekends, the test subject seems to start moving around 7:30am. Activity is more spread from 8:00am to 8:30pm, with activity rapidly slowing after 9:00pm. 
 
 # Use the following command in R to knit the file to html (just clicking the button in RStudio does not preserve the figures properly)
+library(knitr)
+knit("PA1_template_FINAL.Rmd","PA1_template_FINAL.md")
 
 
 
