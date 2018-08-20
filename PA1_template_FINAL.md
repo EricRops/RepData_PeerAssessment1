@@ -315,7 +315,7 @@ __Findings:__
 During the week, the test subject seems to start moving around 5:30am (gross), with peak activity around 7:30am (exercise?), and activity rapidly slows after 7:30pm.  
 On weekends, the test subject seems to start moving around 7:30am. Activity is more spread from 8:00am to 8:30pm, with activity rapidly slowing after 9:00pm. 
 
-# Use the following command in R to knit the file to html (just clicking the button in RStudio does not preserve the figures properly)
+# Use the following command in R to create the MD file (and properly store the figures in a figure directory)
 library(knitr)
 knit("PA1_template_FINAL.Rmd","PA1_template_FINAL.md")
 
